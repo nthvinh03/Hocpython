@@ -1,6 +1,6 @@
 import turtle
 
-
+turtle.bgcolor("#99CCFF")
 pen=turtle.Turtle()
 pen.speed(5)
 pen.color("red")
