@@ -1,6 +1,7 @@
 import turtle
-
-turtle.bgcolor("#99CCFF")
+screen=turtle.Screen()
+screen.setup(800,700)
+screen.bgcolor="red"
 pen=turtle.Turtle()
 pen.speed(5)
 pen.color("red")
@@ -107,6 +108,8 @@ pen.goto(-145,0)
 pen.goto(-85,-50)
 pen.goto(-160,-50)
 pen.end_fill()
+
+#mattroi
 
 pen.penup()
 pen.goto(-200,150)
