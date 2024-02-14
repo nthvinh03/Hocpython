@@ -30,7 +30,7 @@ pen.goto(-40,30)
 pen.pendown()
 pen.right(60)
 pen.circle(50,120)
-turtle.mainloop()
+
 
 
 turtle.done()
