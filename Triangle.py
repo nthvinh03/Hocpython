@@ -1,8 +1,4 @@
-a=3
-b=2
+import turtle
 
-a*=b
-print(a)
-
-b*=a
-print(b)
+turtle.shape("triangle")
+turtle.done()
