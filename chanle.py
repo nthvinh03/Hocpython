@@ -1,4 +1,4 @@
-a=int(input("Enter an Interge "))
+a=int(input("Enter an Interge : "))
 
 if a%2==0:
     print(a, " is an  even number ")
