@@ -14,7 +14,7 @@ count=0
 
 while True:
     pen.speed(20)
-    pen.right(10)
+    
     choose=r.choice(color)
     pen.color(choose)
     pen.right(45)
@@ -22,6 +22,7 @@ while True:
     pen.circle(60,90)
     pen.circle(120,90)
     pen.circle(60,90)
+    pen.right(10)
     count+=1
     if count==100:
         break

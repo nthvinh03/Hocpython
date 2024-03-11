@@ -1,40 +1,9 @@
-import turtle 
+char="Python"
 
-screen=turtle.Screen()
-screen.bgcolor("#99CCFF")
-pen=turtle.Turtle()
-pen.speed(5)
-pen.fillcolor("#FFFF99")
-pen.begin_fill()
-pen.circle(90)
-pen.end_fill()
-pen.penup()
-pen.goto(50,85)
-pen.pendown()
-pen.fillcolor("#FFFF33")
-pen.begin_fill()
-pen.circle(20)
-pen.end_fill()
-pen.penup()
-pen.goto(-50,85)
-pen.pendown()
-pen.fillcolor("#FFFF33")
-pen.begin_fill()
-pen.circle(20)
-pen.end_fill()
-pen.penup()
-pen.goto(10,50)
-pen.pendown()
-pen.fillcolor("#FF0000")
-pen.begin_fill()
-pen.goto(0,65)
-pen.goto(-10,50)
-pen.goto(10,50)
-pen.end_fill()
-pen.penup()
-pen.goto(-50,50)
-pen.pendown()
-pen.right(60)
-pen.circle(60,130)
+for i in range(len(char)):
+    print(char[0:i+1])
+for i in range(len(char)):
+    print(char[i::])
 
-turtle.done()
+
+
