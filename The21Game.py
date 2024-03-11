@@ -12,7 +12,6 @@ while True:
         current_player=="Computer"
     
     while current_number<=21:
-        print(current_number)
         if current_player ==1:
             lst_choice=['1','2','3']
             player_choice=input("Nhap vao gia tri cua nguoi choi : ")

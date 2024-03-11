@@ -3,7 +3,7 @@ screen=turtle.Screen()
 screen.setup(800,700)
 screen.bgcolor="red"
 pen=turtle.Turtle()
-pen.speed(5)
+pen.speed(1)
 pen.color("red")
 
 #mai
