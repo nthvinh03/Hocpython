@@ -3,7 +3,7 @@ import turtle
 pen=turtle.Turtle()
 pen.pensize(3)
 pen.speed(3)
-pen.color("red")
+pen.color("blue")
 pen.hideturtle()
 
 #nhà
