@@ -5,8 +5,6 @@ min=danh_sach[0]
 for i in  (danh_sach):
     if max <i:
         max=i
-    if min>i:
-        min=i
 
 max2=danh_sach[0]
 for i in danh_sach:
@@ -14,6 +12,5 @@ for i in danh_sach:
         max2=i
 
 print("Gia tri lon nhat ",max)
-print("\nGia tri nho nhat ",min)
 
 print("Gia tri lon thu hai : ",max2)
