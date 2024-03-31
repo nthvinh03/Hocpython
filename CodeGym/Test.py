@@ -1,15 +1,15 @@
-a = {}
+class Number:
 
-a[1] = 1
+    num = 20
 
-a['1'] = 2
+    def __init__(self, num):
 
-a[1.0]=4
+        self.num = num
 
-count = 0
+        print(self.num)
 
-for i in a:
+    def __init__(self):
 
-    count += a[i]
+        print(self.num)
 
-print(count)
+n = Number(10)
